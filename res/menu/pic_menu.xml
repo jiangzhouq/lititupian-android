@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/huangdengpian"
+        android:icon="@android:drawable/ic_menu_view"
+        android:showAsAction="always"
+        android:title="@string/huangdengpian">
+        <menu>
+            <item
+                android:id="@+id/huandengpian1"
+                android:title="@string/slide_1"/>
+            <item
+                android:id="@+id/huandengpian2"
+                android:title="@string/slide_2"/>
+            <item
+                android:id="@+id/huandengpian3"
+                android:title="@string/slide_3"/>
+        </menu>
+
+        <item/>
+    </item>
+
+</menu>

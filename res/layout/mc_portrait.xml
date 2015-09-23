@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFF0" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="100dp"
+         >
+		<ImageView 
+		    android:id="@+id/bg"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+			android:background="@android:color/transparent"
+			android:scaleType="centerCrop"/>
+		<TextView android:id="@+id/warning"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" 
+            android:layout_alignParentBottom="true"
+            android:background="#88000000"  
+            android:text="@string/loading"
+            android:textSize="8pt"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+		    />
+        <LinearLayout
+            android:id="@+id/menus"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" 
+            android:layout_alignParentBottom="true"
+            android:background="#88000000"
+            android:visibility="invisible"
+            >
+            <Button
+                android:id="@+id/honglan"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="红蓝图片"
+                android:textColor="#FFFFFF" 
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/zuoyou"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="左右图片"
+                android:textColor="#FFFFFF"
+                android:gravity="center" />
+        </LinearLayout>
+        <ImageView 
+            android:id="@+id/setting"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/setting"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff" >
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/title" />
+    </RelativeLayout>
+
+</RelativeLayout>

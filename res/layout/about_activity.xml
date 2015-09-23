@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" 
+    android:id="@+id/total">
+
+    <ImageView
+        android:id="@+id/about"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/about" />
+
+    <Button
+        android:id="@+id/website"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/about"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/about_button_bg"
+        android:padding="5dp"
+        android:text="进入官网"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/website"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/about_button_bg"
+        android:padding="5dp"
+        android:text="联系我们"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/website" 
+        android:layout_centerHorizontal="true"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/about_button_bg"
+            android:padding="5dp"
+            android:text="电话联系"
+            android:textColor="@android:color/black"
+            android:textSize="8pt" 
+            />
+
+        <Button
+            android:id="@+id/email"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/about_button_bg"
+            android:padding="5dp"
+            android:text="邮件联系"
+            android:textColor="@android:color/black"
+            android:textSize="8pt" />
+    </LinearLayout>
+
+</RelativeLayout>

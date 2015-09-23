@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">立体图片</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Image Grid Example</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_gallery">Image Gallery Example</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Activity Examples</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    <string name="button_image_list">ListView</string>
+    <string name="button_image_grid">GridView</string>
+    <string name="button_image_pager">ViewPager</string>
+    <string name="button_image_gallery">Gallery</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+	<string name="category1">创意</string>
+	<string name="category2">动漫</string>
+	<string name="category3">风景</string>
+	<string name="category4">建筑</string>
+	<string name="category5">卡通</string>
+	<string name="category6">可爱</string>
+	<string name="category7">美女</string>
+	<string name="category8">明星</string>
+	<string name="category9">汽车</string>
+	<string name="category10">影视</string>
+	<string name="category11">游戏</string>
+	<string name="loading">正在加载,请稍候...</string>
+	<string name="no_connect">无法连接到网络,请检查...</string>
+	<string name="huangdengpian">幻灯片</string>
+	<string name="pic_last_one">最后一张图片!</string>
+	<string name="pic_first_one">第一张图片!</string>
+	<string name="slide_1">幻灯片间隔3秒</string>
+	<string name="slide_2">幻灯片间隔5秒</string>
+	<string name="slide_3">幻灯片间隔10秒</string>
+</resources>

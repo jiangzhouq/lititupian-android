@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" 
+        android:layout_margin="1dp">
+
+        <ImageView
+            android:id="@+id/category1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descr_image"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#88000000"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" 
+					android:textSize="8pt"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" 
+        android:layout_margin="1dp">
+
+        <ImageView
+            android:id="@+id/category2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descr_image"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#88000000"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"  
+					android:textSize="8pt"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" 
+        android:layout_margin="1dp">
+
+        <ImageView
+            android:id="@+id/category3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descr_image"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#88000000"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"  
+					android:textSize="8pt"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" 
+        android:layout_margin="1dp">
+
+        <ImageView
+            android:id="@+id/category4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descr_image"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#88000000"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" 
+					android:textSize="8pt"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" 
+        android:layout_margin="1dp">
+
+        <ImageView
+            android:id="@+id/category5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descr_image"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#88000000"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" 
+					android:textSize="8pt"/>
+    </RelativeLayout>
+
+</LinearLayout>
